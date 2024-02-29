@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>shopping</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta properity="og:title" content="shoping" />
+    <meta properity="og:image" content="./asset/logo.png" />
+    <meta properity="og:desciption" content="shopping page " />
+    <meta name="twitter:title" content="shoping" />
+    <meta name="twitter:image" content="./asset/logo.png" />
+    <meta name="twitter:desciption" content="shopping page " />
+    <link rel="icon" href="icon.svg" />
+    <link rel="shortcut" href="icon.svg" />
+    <link rel="apple-touch-icon" href="icon.svg" />
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="navdiv logo" id="navdivtool">
+            <div class="logodiv navItem" style="width: 260px;height: 60px;">
+                <div style="overflow: hidden">
+                    <img src="./asset/logo.png " alt="log " class="logoimg" />
+                </div>
+                <div id="city" class="city">
+                    <div id="headdrow ">
+                        <img src="./asset/draw.svg " class="choseimg" />
+                        <div class="headselect" id="select ">
+                            <div>
+                                <p style="font-size: 17px; font-weight: bolder">توصيل الى</p>
+                                <p style="font-size: 30px; cursor: pointer">الاسكندريه</p>
+                            </div>
+
+                            <div class="options">
+                                <p>الاسكندريه</p>
+                                <p>مصر</p>
+                                <p>الغربيه</p>
+                                <p>المنصوره</p>
+                                <p>العالمن</p>
+                                <p>الغردق</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search navItem" id="search">
+                <div>
+                    <img src="./asset/search.svg " alt="search " class="searchicon" />
+                </div>
+                <div>
+                    <input type="text " id="searcher" placeholder="انت بتدور على ايه ...." />
+                </div>
+                <div id="searchlist"></div>
+            </div>
+            <div class="references navItem" id="references">
+                <div>
+                    <div>
+                        <p class="p1">English</p>
+                    </div>
+                    <div>
+                        <p style="font-size: 30px">|</p>
+                    </div>
+                </div>
+
+                <div class="forimg">
+                    <div>
+                        <p class="pre">عربه التسوق</p>
+                    </div>
+                    <div><img src="./asset/shopping-cart.svg " /></div>
+                </div>
+                <div>
+                    <div>
+                        <p style="font-size: 30px">|</p>
+                    </div>
+                    <div>
+                        <p class="pre" id="loginopen " style="cursor: pointer">
+                            تسجيل دخول
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./asset/user.png " />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div style="margin-top: 60px">
+        <header>
+            <div id="alldraw">
+                <div style="position: relative" class="drawershow">
+                    <p>جميع الفئات</p>
+                    <img src="./asset/draw.svg " class="navimg" id="navimg" />
+                    <div class="drowlist">
+                        <p>الاسكندريه</p>
+                        <p>مصر</p>
+                        <p>الغربيه</p>
+                        <p>المنصوره</p>
+                        <p>العالمن</p>
+                        <p>الغردق</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>الكترونيات</p>
+            </div>
+            <div>
+                <p>المنزل</p>
+            </div>
+            <div>
+                <p>الاطفال</p>
+            </div>
+            <div>
+                <p>سوبر مركت</p>
+            </div>
+            <div>
+                <p>العروض</p>
+            </div>
+        </header>
+
+        <main>
+            <div id="ImgShowerRoller" class="ImgShowerRoller">
+                <img src="./asset/Header/en_banner-01.png " class="imgshow" />
+                <img src="./asset/Header/en_banner-03.png " class="imgshow" />
+                <img src="./asset/Header/en_slider-01.png " class="imgshow" />
+                <img src="./asset/Header/en_slider-02.png " class="imgshow" />
+                <div class="showbtn">
+                    <img src="./asset/showbtn.svg " id="right-btn" class="rightbtn" style="top: 75px; right: 0px" />
+                    <img src="./asset/showbtn.svg " id="left-btn" style="top: 75px; left: 0px; transform: rotateZ(180deg)" />
+                </div>
+            </div>
+
+            <div id="products"></div>
+            <div class="shows">
+                <p>اقوى العروض</p>
+                <p class="left">جميع العروض الجمال</p>
+            </div>
+            <div id="beautyshowscontainer"></div>
+            <div class="shows">
+                <p>عروض الاطفال</p>
+                <p class="left">جميع العروض</p>
+            </div>
+
+            <div id="kids">
+                <div id="girl">
+                    <img src="./asset/age section/ar_module-11.png " />
+                    <p class="kidspre">بناتي</p>
+                </div>
+                <div id="boy ">
+                    <img src="./asset/age section/ar_module-10.png " />
+                    <p class="kidspre">اطفال</p>
+                </div>
+            </div>
+            <div style="height: 40px"></div>
+        </main>
+    </div>
+    <footer>
+        <div class="footerlist">
+            <h1>متنوعات</h1>
+            <ul>
+                <li>اجهزه منزيليه</li>
+                <li>الجمال</li>
+                <li>الكترونيات</li>
+                <li>اطفال</li>
+                <li>مطبخ</li>
+            </ul>
+        </div>
+        <div class="footerlist">
+            <h1>الجمال</h1>
+            <ul>
+                <li>مستحضرات التجميل</li>
+                <li>العطور</li>
+                <li>الكترونيات</li>
+                <li>مستحضرات التجميل</li>
+
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./index.js "></script>
+
+</html>

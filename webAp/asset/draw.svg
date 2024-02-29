@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by: Hassouna Academy -->
+<svg version="1.1" viewBox="0 0 100 100" 
+ xmlns="http://www.w3.org/2000/svg" 
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+				
+ <line x1='0' y1='30' x2='50' y2='100' stroke-width='15' stroke='rgba(111, 114, 114, 0.925)' stroke-linecap='round'/>
+ <line x1='100' y1='30' x2='50' y2='100' stroke-width='15' stroke='rgba(111, 114, 114, 0.925)' stroke-linecap='round'/>
+</svg>
+
+
+
+
+<!--X,Y Axises-->
